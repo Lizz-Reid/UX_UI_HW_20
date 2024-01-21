@@ -1,0 +1,441 @@
+body {
+  background-color: #FFF2F2;
+  font-family: 'lora, serif';
+}
+
+.customNav {
+  background-color: #FFF2F2 !important;
+
+  margin-left: 1.8%;
+}
+
+.bg-body-tertiary {
+  /* background-color: red!important; */
+  width: 96.4%;
+
+}
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+
+}
+
+.navbar-brand img {
+  padding-right: 15px;
+  width: 65px;
+}
+
+.nav-item {
+  margin: 0px 15px;
+}
+
+.navBar a {
+  padding-left: 60px;
+  font-size: 20px;
+  font-family: 'Lora', serif;
+  font-style: bold;
+  color: #870A30;
+}
+
+#navbarNav a {
+  font-size: 20px !important;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+}
+
+#navbarNav a:hover {
+  color: #FFF2F2;
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: #870A30;
+}
+
+.navbar-brand {
+  width: 50%;
+  font-size: 32px;
+  color: #870A30;
+  font-family: 'lora';
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Main content */
+
+.heroImg {
+  height: 80%;
+  display: grid;
+  justify-content: center;
+  /* background-color:red; */
+
+
+}
+
+.content {
+  display: grid;
+  z-index: 100;
+  position: relative;
+  box-shadow: 5px 5px 5px rgb(72, 72, 72, 0.6);
+  width: 250px;
+  height: 80%;
+  min-height: 200px;
+  margin-left: 8%;
+  top: -20%;
+  background-color: #FAD2E0;
+  background-image: url("../Images/Pattern.png");
+
+}
+
+
+.content h3 {
+  font-size: 16px;
+  font-family: 'lato';
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.content p {
+  font-size: 16px;
+  font-family: 'lato';
+  padding-left: 10px;
+}
+
+.content li {
+  font-size: 16px;
+  font-family: 'lato';
+  padding-left: 10px;
+}
+
+.content p:hover {
+  color: #870A30;
+  text-decoration: underline;
+}
+
+.selfiebox {
+  position: absolute;
+  z-index: -1;
+  margin-top: 0%;
+  margin-left: 20%;
+  max-height: 615px;
+  height: 70%;
+  width: 31%;
+  min-width: 400px;
+}
+
+.heading {
+  font-size: 64px;
+  font-family: 'Lora', serif;
+  font-style: italic;
+  height: 100px;
+  color: #870A30;
+  margin-bottom: 0%;
+}
+
+.selfie {
+  top: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+
+.subHeading {
+  font-size: 36px;
+  font-family: 'Lora', serif;
+  font-style: italic;
+  height: 100px;
+  color: #870A30;
+  margin-bottom: 0%;
+}
+
+.designValue {
+  font-size: 20px;
+  font-family: 'Lora', serif;
+  height: 100px;
+  margin-top: -20px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+
+.colourBlock {
+  position: absolute;
+  left: 0;
+  top: 58%;
+  width: 100%;
+  height: 215px;
+  background-color: #BB2251;
+  z-index: -10;
+}
+
+.rolebox {
+  z-index: -1;
+  position: relative;
+  width: 40%;
+  margin-left: 52%;
+}
+
+/* Side Nav */
+
+.sidebar {
+  width: 170px;
+  height: 25vh;
+  min-height: 260px;
+  overflow: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 15%;
+  margin-bottom: -250px;
+  box-shadow: 5px 5px 5px rgb(72, 72, 72, 0.6);
+  border-style: solid;
+  border-width: 2px;
+  border-color: #BB2251;
+}
+
+.sidebar h3 {
+ text-align: center;
+  font-family: "Lato";
+  font-size: 20px;
+  padding-bottom: 5px;
+  color: #870A30;
+}
+
+.main,
+.sidebar {
+  background-color: #FAD2E0;
+  border-radius: 0px 15px 15px 0px;
+  padding: 15px;
+}
+
+
+
+.bottom {
+  justify-self: bottom;
+}
+
+/* Content */
+
+.research {
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+  margin-right: 30%;
+  height: auto;
+  width: 100%;
+}
+
+.reContent {
+  width: 900px;
+
+}
+
+.contentCon b {
+  display: flex;
+  justify-content: center;
+}
+
+.reContent img {
+  width: 100%;
+  height: 510px;
+}
+
+b {
+  color: #870A30;
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-size: 64px;
+}
+
+.research p {
+  font-size: 16px;
+  font-family: 'Lora', serif;
+  padding: 20px 0px 100px 0px;
+
+}
+
+.problem {
+  display: grid;
+  justify-content: center;
+  background-color: #FAD2E0;
+  width: 100%; 
+  background-image: url("../Images/Pattern.png");
+}
+
+.problem p {
+  width: 900px;
+
+}
+
+.research b {
+  padding-top: 20px;
+}
+
+.iteration {
+  display: grid;
+  justify-content: center;
+  background-color: #FAD2E0;
+  width: 100%; 
+}
+
+.iteration p {
+  width: 900px;
+}
+
+.pLast {
+  color: white;
+}
+
+.colourBlock2 {
+  z-index: -10;
+  background-color: #BB2251;
+  height: 220px;
+  width: 100%;
+  margin-top: -280px;
+}
+
+
+/* Footer more info */
+
+.CustomFoot {
+  height: 300px;
+  width: 100%;
+  border-color: #870A30;
+  background-color: #FFF2F2;
+}
+
+.CustomFoot b {
+  color: #870A30;
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-size: 64px;
+}
+
+.CustomFoot p {
+  font-family: 'Lato';
+  font-size: 20px;
+ padding: 0% 10% 0% 10%;
+}
+
+.CustomButton {
+  background-color: #870A30;
+  font-size: 20px;
+  font-style: 'Lato';
+  border-radius: 15px;
+  border-color: #870A30;
+  border-width: 2px;
+}
+
+
+
+
+/* Footer */
+#foot {
+  display: grid;
+  width: 100%;
+  height: 200px;
+  padding-top: 80px;
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-areas:
+    "f1 f2 f2"
+    "f3 f4 f4"
+    "f5 f6 f6"
+    "f7 f7 f8";
+
+}
+
+
+/*item list*/
+.f1 {
+  grid-area: f1;
+  margin-left: 30%;
+}
+
+.f2 {
+  grid-area: f2;
+}
+
+.f3 {
+  grid-area: f3;
+  margin-left: 30%;
+}
+
+.f4 {
+  grid-area: f4;
+}
+
+.f5 {
+  grid-area: f5;
+  margin-left: 30%;
+}
+
+.f6 {
+  grid-area: f6;
+}
+
+.f7 {
+  grid-area: f7;
+  margin-left: 15%;
+
+}
+
+.f8 {
+  grid-area: f8;
+  padding-bottom: 70px;
+  text-align: right;
+  font-family: 'lato';
+  font-size: 14x;
+  margin-right: 30%;
+}
+
+.f1,
+.f2,
+.f3,
+.f4,
+.f5,
+.f6,
+.f7 {
+  text-align: left;
+  padding-bottom: 70px;
+  font-family: 'lato';
+  font-size: 18px;
+}
+
+#foot p:hover {
+  color: #870A30;
+  text-decoration: underline;
+}
+
+
+@media only screen and (max-width: 1300px) {
+  .designValue {
+    font-size: 16px;
+    margin-bottom: -20px;
+    margin-top: -20px;
+  }
+
+  .content {
+    top: -80px;
+    margin-left: 4%;
+  }
+
+  .content h3 {
+    font-size: 14px;
+    
+  }
+  
+  .content p {
+    font-size: 14px;
+  }
+  
+  .content li {
+    font-size: 14px;
+  }
+
+  .rolebox h2 {
+    height: 70px;
+  }
+
+  .colourBlock {
+    height: 120px;
+    top: 430px;
+  }
+}
