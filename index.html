@@ -19,7 +19,7 @@
 <!-- Nav -->
 <nav class="navbar navbar-expand-lg bg-body-tertiary customNav">
     <div class="container-fluid">
-        <h2 class="navbar-brand" href="#"><img src="images/Logo - Colour.png"> Violet Reid</h2>
+        <a class="navbar-brand" href="https://lizz-reid.github.io/UX_UI_HW_19/"><img src="images/Logo - Colour.png">Violet Reid</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -27,7 +27,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About Me</a>
+                    <a class="nav-link" href="https://lizz-reid.github.io/UX_UI_HW_19/">About Me</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Resume</a>
@@ -45,7 +45,7 @@
 
 <!--  Main content of the page -->
 <section class="heroImg">
-    <div class="rolebox">
+    <div class="rolebox" id="overview">
         <b class="heading">Tripifiy </b>
         <h2 class="subHeading">(Travel inspiration made easy)</h2>
         <p class="designValue">This project focused on addressing users' travel challenges, this project employed
@@ -67,7 +67,7 @@
         <p>3 weeks from start to finish</p>
     </div>
     <div class="selfiebox">
-        <img class=selfie src="Images/600x615.svg">
+        <img class=selfie src="Images/summary.png">
     </div>
 
     <div class="colourBlock"></div>
@@ -78,21 +78,21 @@
 
    <!-- Side Nav -->
 <section class="contentCon">
-    <b>Research</b>
+    <b id="research">Research</b>
  <div class="sidebar">
-        <h3>Overview</h3>
-        <h3>Research</h3>
-        <h3>The Problem</h3>
-        <h3>Testing</h3>
-        <h3>Iteration</h3>
-        <h3>Prototype</h3>               
+        <a href="#overview" class="subNav">Overview</a>
+        <a href="#research" class="subNav">Research</a>
+        <a href="#theProb" class="subNav">The Problem</a>
+        <a href="#iter" class="subNav">Ideation</a>
+        <a href="#test" class="subNav">Testing</a>
+        <a href="#proto" class="subNav">Prototype</a>               
     </div>
 
     <!-- Research -->
-    <section class="research">
+    <section class="projectSec" >
         <div class="reContent">
-            <img src="Images/900x510.svg">
-            <p>discription Above is the interview plan, this was a crucial initial step, enabling the identification of
+            <img src="Images/Tripify interview.png">
+            <p>Above is the interview plan, this was a crucial initial step, enabling the identification of
                 user challenges. The insights gathered paved the way for a comprehensive exploration into potential
                 solutions and a thorough analysis of competitor apps, unveiling their strategies in addressing similar
                 issues. </p>
@@ -101,48 +101,34 @@
      
 
 <!-- Problem -->
-    <section class="research">
-        <div class="reContent problem">
-            <b>Research</b>
-            <p>discription Above is the interview plan, this was a crucial initial step, enabling the identification of
-                user challenges. The insights gathered paved the way for a comprehensive exploration into potential
-                solutions and a thorough analysis of competitor apps, unveiling their strategies in addressing similar
-                issues. discription Above is the interview plan, this was a crucial initial step, enabling the identification of
-                user challenges. The insights gathered paved the way for a comprehensive exploration into potential
-                solutions and a thorough analysis of competitor apps, unveiling their strategies in addressing similar
-                issues.</p>
+    <section class="projectSec">
+        <div class="reContent problem" id="theProb">
+            <b>The Problem</b>
+            <p> I believe that creating an app dedicated to travellers sharing practical information about their recent trips will help others struggling to find information online to find reliable information about these locations to plan their future travels. Tripify is a travel app to help travellers solve the issue of trying to find reliable and up-to-date information on travel locations by connecting users with other travellers and providing a platform for them to share their experiences.</p>
          
         </div>
     </section>
 
-    <section class="research">
-        <div class="reContent">
-            <b>Research</b>
-            <img src="Images/900x510.svg">
-            <p>discription Above is the interview plan, this was a crucial initial step, enabling the identification of
-                user challenges. The insights gathered paved the way for a comprehensive exploration into potential
-                solutions and a thorough analysis of competitor apps, unveiling their strategies in addressing similar
-                issues. </p>
+    <section class="projectSec">
+        <div class="reContent" id="iter">
+            <b>Iteration</b>
+            <img src="Images/Ideation.png">
+            <p>In the ideation stage I gathered the insights from the interviews and used them to create an affinity diagram, feature prioritization matrix and empathy map. After that I stated to brainstorm solutions and made an I like, I wish, What if diagram, storyboard, value proposition and proto person </p>
         </div>
     </section>
-    <section class="research">
-        <div class="reContent iteration">
-            <b>Research</b>
-            <img src="Images/900x510.svg">
-            <p>discription Above is the interview plan, this was a crucial initial step, enabling the identification of
-                user challenges. The insights gathered paved the way for a comprehensive exploration into potential
-                solutions and a thorough analysis of competitor apps, unveiling their strategies in addressing similar
-                issues. </p>
+    <section class="projectSec">
+        <div class="reContent iteration" id="test">
+            <b>Testing</b>
+            <img src="Images/Tripify testing.png">
+            <p>Once a low fidelity prototype was built, guerrilla user tests were conducted. I took the insights from these tests listed them out and prioritised them, then I further sorted them by their priority to users and their priority for company. This process gave me the main issues that needed improving for the next iteration.  </p>
+            
         </div>
     </section>
-    <section class="research">
-        <div class="reContent">
-            <b>Research</b>
-            <img src="Images/900x510.svg">
-            <p class="pLast">discription Above is the interview plan, this was a crucial initial step, enabling the identification of
-                user challenges. The insights gathered paved the way for a comprehensive exploration into potential
-                solutions and a thorough analysis of competitor apps, unveiling their strategies in addressing similar
-                issues. </p>   
+    <section class="projectSec">
+        <div class="reContent" id="proto">
+            <b>Prototype</b>
+            <img src="Images/Proto.png">
+            <p class="pLast">During testing, several key issues were identified, including confusing iconography where non-standard icons were used for their respective functions. Additionally, users expressed frustration with the excessive number of guiding screens, which impeded their experience, these issues were all rectified by the final prototype. Above are the three main pages of the low fidelity prototype and the final product of the case study. These pages include, in order from left to right,  the home page, search function and a post details page</p>   
         </div>
        
     </section>
@@ -153,6 +139,7 @@
 <!-- Footer more info -->
 <div class="card text-center CustomFoot">
     <div class="card-body">
+        <p></p>
         <b class="card-title">Like what you see?</b>
         <p class="card-text">I wrote a case study about this project to show the design process and share more about some of the challenges we overcame.</p>
         <a href="#" class="btn btn-primary CustomButton">See the Case Study</a>

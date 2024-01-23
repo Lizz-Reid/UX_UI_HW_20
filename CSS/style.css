@@ -10,7 +10,6 @@ body {
 }
 
 .bg-body-tertiary {
-  /* background-color: red!important; */
   width: 96.4%;
 
 }
@@ -22,8 +21,8 @@ body {
 }
 
 .navbar-brand img {
-  padding-right: 15px;
-  width: 65px;
+  padding-right: 10px;
+  width: 65px !important;
 }
 
 .nav-item {
@@ -52,11 +51,12 @@ body {
 
 .navbar-brand {
   width: 50%;
-  font-size: 32px;
+  font-size: 32px !important;
   color: #870A30;
   font-family: 'lora';
   cursor: pointer;
   font-weight: bold;
+ 
 }
 
 /* Main content */
@@ -65,6 +65,7 @@ body {
   height: 80%;
   display: grid;
   justify-content: center;
+  padding-top: 30px;
   /* background-color:red; */
 
 
@@ -89,14 +90,15 @@ body {
 .content h3 {
   font-size: 16px;
   font-family: 'lato';
-  padding-left: 10px;
+  font-weight: bold;
+  padding-left: 30px;
   padding-top: 10px;
 }
 
 .content p {
   font-size: 16px;
   font-family: 'lato';
-  padding-left: 10px;
+  padding-left: 30px;
 }
 
 .content li {
@@ -105,10 +107,6 @@ body {
   padding-left: 10px;
 }
 
-.content p:hover {
-  color: #870A30;
-  text-decoration: underline;
-}
 
 .selfiebox {
   position: absolute;
@@ -119,6 +117,7 @@ body {
   height: 70%;
   width: 31%;
   min-width: 400px;
+  box-shadow: 5px 5px 5px rgb(72, 72, 72, 0.6);
 }
 
 .heading {
@@ -159,7 +158,7 @@ body {
 .colourBlock {
   position: absolute;
   left: 0;
-  top: 58%;
+  top: 65%;
   width: 100%;
   height: 215px;
   background-color: #BB2251;
@@ -177,8 +176,8 @@ body {
 
 .sidebar {
   width: 170px;
-  height: 25vh;
-  min-height: 260px;
+  height: 24vh;
+  min-height: 220px;
   overflow: auto;
   position: -webkit-sticky;
   position: sticky;
@@ -190,12 +189,18 @@ body {
   border-color: #BB2251;
 }
 
-.sidebar h3 {
- text-align: center;
+.subNav {
   font-family: "Lato";
   font-size: 20px;
-  padding-bottom: 5px;
   color: #870A30;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 15px 10px;
+
+}
+
+.subNav:hover {
+  text-decoration: underline;
 }
 
 .main,
@@ -213,7 +218,7 @@ body {
 
 /* Content */
 
-.research {
+.projectSec {
   display: flex;
   justify-content: center;
   z-index: 100;
@@ -244,7 +249,7 @@ b {
   font-size: 64px;
 }
 
-.research p {
+.projectSec p {
   font-size: 16px;
   font-family: 'Lora', serif;
   padding: 20px 0px 100px 0px;
@@ -264,8 +269,8 @@ b {
 
 }
 
-.research b {
-  padding-top: 20px;
+#research {
+  padding-bottom: 40px;
 }
 
 .iteration {
@@ -281,6 +286,8 @@ b {
 
 .pLast {
   color: white;
+  font-size: 16px;
+  font-family: 'Lora', serif;
 }
 
 .colourBlock2 {
@@ -297,8 +304,8 @@ b {
 .CustomFoot {
   height: 300px;
   width: 100%;
-  border-color: #870A30;
-  background-color: #FFF2F2;
+  border-color: #FAD2E0;
+  background-color: #FAD2E0;
 }
 
 .CustomFoot b {
@@ -323,6 +330,17 @@ b {
   border-width: 2px;
 }
 
+.CustomButton:hover {
+ background-color: #FFF2F2;
+ color: #870A30;
+ border-color: #870A30;
+}
+
+.CustomButton:focus {
+  background-color: #FFF2F2 !important;
+  color: #870A30 !important;
+  border-color: #870A30 !important;
+ }
 
 
 
@@ -405,13 +423,20 @@ b {
 }
 
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1500px) {
   .designValue {
     font-size: 16px;
     margin-bottom: -20px;
     margin-top: -20px;
   }
 
+  .rolebox {
+    padding-left: 10px;
+  }
+
+  .subHeading {
+    font-size: 32px;
+  }
   .content {
     top: -80px;
     margin-left: 4%;
@@ -434,8 +459,12 @@ b {
     height: 70px;
   }
 
+  .heroImg {
+    height: 90%;
+  }
+
   .colourBlock {
     height: 120px;
-    top: 430px;
+    top: 460px;
   }
 }
